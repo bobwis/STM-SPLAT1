@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RF_Switch)(type Legacy)(uri ${KIPRJMOD}/symbols/RF_Switch.lib)(options "")(descr ""))
+  (lib (name c_pack04)(type Legacy)(uri ${KIPRJMOD}/symbols/c_pack04.lib)(options "")(descr ""))
+)

@@ -69,4 +69,99 @@ F 3 "~" H 2650 3350 50  0001 C CNN
 	1    2650 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5BD26EDD
+P 14250 1700
+F 0 "J3" H 14349 1676 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14349 1585 50  0000 L CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 14250 1700 50  0001 C CNN
+F 3 " ~" H 14250 1700 50  0001 C CNN
+	1    14250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5BD2707C
+P 14150 2550
+F 0 "J2" H 14249 2526 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14249 2435 50  0000 L CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 14150 2550 50  0001 C CNN
+F 3 " ~" H 14150 2550 50  0001 C CNN
+	1    14150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5BD270F6
+P 14050 3300
+F 0 "J1" H 14149 3276 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14149 3185 50  0000 L CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 14050 3300 50  0001 C CNN
+F 3 " ~" H 14050 3300 50  0001 C CNN
+	1    14050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Switch:SA630D U2
+U 1 1 5BD29062
+P 12500 2150
+F 0 "U2" H 12575 2575 50  0000 C CNN
+F 1 "SA630D" H 12575 2484 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12650 2600 50  0001 C CNN
+F 3 "" H 12500 2250 50  0001 C CNN
+	1    12500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 2050 11750 2050
+Wire Wire Line
+	11750 2050 11750 3300
+Wire Wire Line
+	11750 3300 13850 3300
+Wire Wire Line
+	13050 1950 13800 1950
+Wire Wire Line
+	13800 1950 13800 1700
+Wire Wire Line
+	13800 1700 14050 1700
+Wire Wire Line
+	13050 2150 13800 2150
+Wire Wire Line
+	13800 2150 13800 2550
+Wire Wire Line
+	13800 2550 13950 2550
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5BD2A0ED
+P 11350 1200
+F 0 "RN1" H 11538 1246 50  0000 L CNN
+F 1 "R_Pack04" H 11538 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11625 1200 50  0001 C CNN
+F 3 "~" H 11350 1200 50  0001 C CNN
+	1    11350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5BD2A53F
+P 13350 1200
+F 0 "RN2" H 13538 1246 50  0000 L CNN
+F 1 "R_Pack04" H 13538 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 13625 1200 50  0001 C CNN
+F 3 "~" H 13350 1200 50  0001 C CNN
+	1    13350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L c_pack04:C_Pack04 CN?
+U 1 1 5BD32370
+P 14700 1050
+F 0 "CN?" H 14783 966 50  0000 L CNN
+F 1 "C_Pack04" H 14783 875 50  0000 L CNN
+F 2 "" V 14870 920 50  0001 C CNN
+F 3 "~" H 14590 935 50  0001 C CNN
+	1    14700 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -588,7 +588,7 @@
     (add_net "Net-(U1-Pad99)")
   )
 
-  (module Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical (layer F.Cu) (tedit 5BD0EDFD) (tstamp 5BD00060)
+  (module Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical locked (layer F.Cu) (tedit 5BD0EDFD) (tstamp 5BD00060)
     (at 68.58 75.6666)
     (descr "Through hole straight IDC box header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x08 2.54mm double row")
@@ -666,7 +666,7 @@
     )
   )
 
-  (module Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical (layer F.Cu) (tedit 5BD0EE24) (tstamp 5BD00032)
+  (module Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical locked (layer F.Cu) (tedit 5BD0EE24) (tstamp 5BD00032)
     (at 109.185001 65.835001)
     (descr "Through hole straight IDC box header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x10 2.54mm double row")
@@ -752,7 +752,7 @@
     )
   )
 
-  (module Connector_IDC:IDC-Header_2x15_P2.54mm_Vertical (layer F.Cu) (tedit 5BD0EE50) (tstamp 5BD00000)
+  (module Connector_IDC:IDC-Header_2x15_P2.54mm_Vertical locked (layer F.Cu) (tedit 5BD0EE50) (tstamp 5BD00000)
     (at 68.58 98.5266)
     (descr "Through hole straight IDC box header, 2x15, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x15 2.54mm double row")
@@ -858,7 +858,7 @@
     )
   )
 
-  (module Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical (layer F.Cu) (tedit 5BD0EE6D) (tstamp 5BCFFFC4)
+  (module Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical locked (layer F.Cu) (tedit 5BD0EE6D) (tstamp 5BCFFFC4)
     (at 109.185001 93.455001)
     (descr "Through hole straight IDC box header, 2x17, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x17 2.54mm double row")
