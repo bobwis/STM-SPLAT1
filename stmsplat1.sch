@@ -20,7 +20,7 @@ U 1 1 5BCFF0C9
 P 6900 5150
 F 0 "U1" H 6900 9036 50  0000 C CNN
 F 1 "NUCLEO144-F746ZG" H 6900 9127 50  0000 C CNN
-F 2 "Module:ST_Morpho_Connector_144_STLink" H 7750 1500 50  0001 L CNN
+F 2 "symbols:ST_Nucleo_144_Large_Daughter" H 7750 1500 50  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf" H 6000 5450 50  0001 C CNN
 	1    6900 5150
 	-1   0    0    1   
@@ -53,7 +53,7 @@ U 1 1 5BD04D97
 P 2900 7050
 F 0 "CN9" H 3006 8628 50  0000 C CNN
 F 1 "Conn_01x30_Male" H 3006 8537 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x15_P2.54mm_Vertical" H 2900 7050 50  0001 C CNN
+F 2 "symbols:IDC-Pins_2x15_P2.54mm_Vertical" H 2900 7050 50  0001 C CNN
 F 3 "~" H 2900 7050 50  0001 C CNN
 	1    2900 7050
 	1    0    0    -1  
