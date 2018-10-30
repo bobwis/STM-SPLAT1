@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_Pack04
+D 4 Capacitor network, parallel topology, DIP package
+K C Network parallel topology
+F ~
+$ENDCMP
+#
+$CMP R_Pack04
+D 4 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+F ~
+$ENDCMP
+#
+#End Doc Library

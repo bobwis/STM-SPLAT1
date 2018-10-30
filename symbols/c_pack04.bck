@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP C_Pack04
-D 4 Capacitor network, parallel topology, 
-K C Network parallel topology
-F ~
-$ENDCMP
-#
-#End Doc Library

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x16_Male
+# Connector:Conn_01x16_Male
 #
-DEF Connector_Conn_01x16_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x16_Male J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Conn_01x16_Male" 0 -900 50 H V C CNN
+F1 "Connector:Conn_01x16_Male" 0 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -63,11 +63,11 @@ X Pin_9 9 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x20_Male
+# Connector:Conn_01x20_Male
 #
-DEF Connector_Conn_01x20_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x20_Male J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Connector_Conn_01x20_Male" 0 -1100 50 H V C CNN
+F1 "Connector:Conn_01x20_Male" 0 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -137,11 +137,11 @@ X Pin_9 9 200 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x30_Male
+# Connector:Conn_01x30_Male
 #
-DEF Connector_Conn_01x30_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x30_Male J 0 40 Y N 1 F N
 F0 "J" 0 1500 50 H V C CNN
-F1 "Connector_Conn_01x30_Male" 0 -1600 50 H V C CNN
+F1 "Connector:Conn_01x30_Male" 0 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -241,11 +241,11 @@ X Pin_9 9 200 600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x34_Male
+# Connector:Conn_01x34_Male
 #
-DEF Connector_Conn_01x34_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x34_Male J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
-F1 "Connector_Conn_01x34_Male" 0 -1800 50 H V C CNN
+F1 "Connector:Conn_01x34_Male" 0 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -357,11 +357,11 @@ X Pin_9 9 200 800 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_Coaxial
+# Connector:Conn_Coaxial
 #
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+DEF Connector:Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F1 "Connector:Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -382,11 +382,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Pack04
+# Device:R_Pack04
 #
-DEF Device_R_Pack04 RN 0 0 Y N 1 F N
+DEF Device:R_Pack04 RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
-F1 "Device_R_Pack04" 200 0 50 V V C CNN
+F1 "Device:R_Pack04" 200 0 50 V V C CNN
 F2 "" 275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -418,11 +418,11 @@ X R1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Module_NUCLEO144-F746ZG
+# MCU_Module:NUCLEO144-F746ZG
 #
-DEF MCU_Module_NUCLEO144-F746ZG U 0 1 Y Y 1 F N
+DEF MCU_Module:NUCLEO144-F746ZG U 0 1 Y Y 1 F N
 F0 "U" -900 3725 50 H V R CNN
-F1 "MCU_Module_NUCLEO144-F746ZG" -900 3650 50 H V R CNN
+F1 "MCU_Module:NUCLEO144-F746ZG" -900 3650 50 H V R CNN
 F2 "Module:ST_Morpho_Connector_144_STLink" 850 -3650 50 H I L CNN
 F3 "" -900 300 50 H I C CNN
 ALIAS NUCLEO144-F746ZG
@@ -578,45 +578,11 @@ X PB4 99 1300 1200 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# RF_Switch_SA630D
+# splatsyms:C_Pack04-c_pack04
 #
-DEF RF_Switch_SA630D U 0 20 Y Y 1 F N
-F0 "U" -300 300 50 H V C CNN
-F1 "RF_Switch_SA630D" 150 300 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 150 450 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
-ALIAS MASWSS0115 MASWSS0143 MASWSS0166 MASW-007221 MASWSS0192 MASWSS0151 MASWSS0176
-$FPLIST
- SOT*363*
-$ENDFPLIST
-DRAW
-C -120 100 11 0 1 0 N
-C 120 0 11 0 1 0 N
-C 125 205 11 0 1 0 N
-S 450 -300 -300 250 0 1 10 f
-P 2 0 1 0 -125 0 -100 0 N
-P 2 0 1 0 -110 100 115 205 N
-P 2 0 1 0 -75 0 -50 0 N
-P 2 0 1 0 -25 0 0 0 N
-P 2 0 1 0 0 25 0 50 N
-P 2 0 1 0 0 75 0 100 N
-P 2 0 1 0 0 125 0 150 N
-X VDD 1 -200 -400 100 U 50 50 1 1 W
-X GND 2 150 -400 100 U 50 50 1 1 W
-X RFIN 3 -400 100 100 R 50 50 1 1 P
-X ENCH1 4 -400 -50 100 R 50 50 1 1 I
-X RF2 5 550 0 100 L 50 50 1 1 P
-X GND 6 0 -400 100 U 50 50 1 1 W
-X ACGND 7 550 -200 100 L 50 50 1 1 P
-X RF1 8 550 200 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# c_pack04_C_Pack04
-#
-DEF c_pack04_C_Pack04 CN 0 0 Y N 1 F N
+DEF splatsyms:C_Pack04-c_pack04 CN 0 0 Y N 1 F N
 F0 "CN" -405 -130 50 V V C CNN
-F1 "c_pack04_C_Pack04" 95 -130 50 V V C CNN
+F1 "splatsyms:C_Pack04-c_pack04" 95 -130 50 V V C CNN
 F2 "" 170 -130 50 V I C CNN
 F3 "" -110 -115 50 H I C CNN
 $FPLIST
@@ -657,6 +623,39 @@ X R4.2 5 -5 70 100 D 50 50 1 1 P
 X R3.2 6 -105 70 100 D 50 50 1 1 P
 X R2.2 7 -205 70 100 D 50 50 1 1 P
 X R1.2 8 -305 70 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# splatsyms:SA630D-RF_Switch
+#
+DEF splatsyms:SA630D-RF_Switch U 0 20 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "splatsyms:SA630D-RF_Switch" 150 300 50 H V C CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 150 450 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+$FPLIST
+ SOT*363*
+$ENDFPLIST
+DRAW
+C -120 100 11 0 1 0 N
+C 120 0 11 0 1 0 N
+C 125 205 11 0 1 0 N
+S 450 -300 -300 250 0 1 10 f
+P 2 0 1 0 -125 0 -100 0 N
+P 2 0 1 0 -110 100 115 205 N
+P 2 0 1 0 -75 0 -50 0 N
+P 2 0 1 0 -25 0 0 0 N
+P 2 0 1 0 0 25 0 50 N
+P 2 0 1 0 0 75 0 100 N
+P 2 0 1 0 0 125 0 150 N
+X VDD 1 -200 -400 100 U 50 50 1 1 W
+X GND 2 150 -400 100 U 50 50 1 1 W
+X RFIN 3 -400 100 100 R 50 50 1 1 P
+X ENCH1 4 -400 -50 100 R 50 50 1 1 I
+X RF2 5 550 0 100 L 50 50 1 1 P
+X GND 6 0 -400 100 U 50 50 1 1 W
+X ACGND 7 550 -200 100 L 50 50 1 1 P
+X RF1 8 550 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
