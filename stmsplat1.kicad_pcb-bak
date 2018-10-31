@@ -1114,7 +1114,7 @@
   )
 
   (module spatboard:GPS_IDC-Header_2x05_P2.54mm_Horizontal (layer F.Cu) (tedit 5BD939FB) (tstamp 5BD915C5)
-    (at 85.09 124.46 270)
+    (at 85.09 114.3 270)
     (descr "Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)")
     (tags "connector idc locked")
     (path /5BD908A5)
