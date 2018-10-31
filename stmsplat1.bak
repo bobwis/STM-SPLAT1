@@ -20,7 +20,7 @@ U 1 1 5BCFF0C9
 P 6900 5150
 F 0 "U1" H 6900 9036 50  0000 C CNN
 F 1 "NUCLEO144-F746ZG" H 6900 9127 50  0000 C CNN
-F 2 "Module:ST_Morpho_Connector_144_STLink" H 7750 1500 50  0001 L CNN
+F 2 "spatboard:ST_Nucleo_144_Large_Daughter" H 7750 1500 50  0001 L CNN
 F 3 "" H 6000 5450 50  0001 C CNN
 	1    6900 5150
 	-1   0    0    1   
@@ -226,4 +226,62 @@ PG3
 Connection ~ 11750 3200
 Wire Wire Line
 	11750 3200 11750 3300
+Text HLabel 3350 5200 2    50   Input ~ 0
+PA3
+Text HLabel 3350 5300 2    50   Input ~ 0
+PD7
+Text HLabel 3350 5400 2    50   Input ~ 0
+PC0
+Text HLabel 3350 5500 2    50   Input ~ 0
+PD6
+Text HLabel 3350 5600 2    50   Input ~ 0
+PC3
+Text HLabel 3350 5700 2    50   Input ~ 0
+PD5
+Text HLabel 3350 5800 2    50   Input ~ 0
+PF3
+Text HLabel 3350 5900 2    50   Input ~ 0
+PD4
+Text HLabel 3350 6000 2    50   Input ~ 0
+PF5
+Text HLabel 3350 6100 2    50   Input ~ 0
+PD3
+Text HLabel 3350 6200 2    50   Input ~ 0
+PF10
+Text HLabel 3350 6300 2    50   Input ~ 0
+GND
+Text HLabel 3350 6500 2    50   Input ~ 0
+PE2
+Text HLabel 3350 6600 2    50   Input ~ 0
+PA7
+Text HLabel 3350 6700 2    50   Input ~ 0
+PE4
+Text HLabel 3350 6800 2    50   Input ~ 0
+PF2
+Text HLabel 3350 6900 2    50   Input ~ 0
+PE5
+Text HLabel 3350 7000 2    50   Input ~ 0
+PF1
+Text HLabel 3350 7100 2    50   Input ~ 0
+PE6
+Text HLabel 3350 7200 2    50   Input ~ 0
+PF0
+Text HLabel 3350 7300 2    50   Input ~ 0
+PE3
+Text HLabel 3350 7400 2    50   Input ~ 0
+GND
+Text HLabel 3350 7500 2    50   Input ~ 0
+PF8
+Text HLabel 3350 7600 2    50   Input ~ 0
+PD0
+Text HLabel 3350 7700 2    50   Input ~ 0
+PF7
+Text HLabel 3350 7800 2    50   Input ~ 0
+PD1
+Text HLabel 3350 7900 2    50   Input ~ 0
+PF9
+Text HLabel 3350 8000 2    50   Input ~ 0
+PG0
+Text HLabel 3350 8100 2    50   Input ~ 0
+PG1
 $EndSCHEMATC

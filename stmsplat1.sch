@@ -226,4 +226,170 @@ PG3
 Connection ~ 11750 3200
 Wire Wire Line
 	11750 3200 11750 3300
+Text HLabel 3350 5200 2    50   Input ~ 0
+PA3
+Text HLabel 3350 5300 2    50   Input ~ 0
+PD7
+Text HLabel 3350 5400 2    50   Input ~ 0
+PC0
+Text HLabel 3350 5500 2    50   Input ~ 0
+PD6
+Text HLabel 3350 5600 2    50   Input ~ 0
+PC3
+Text HLabel 3350 5700 2    50   Input ~ 0
+PD5
+Text HLabel 3350 5800 2    50   Input ~ 0
+PF3
+Text HLabel 3350 5900 2    50   Input ~ 0
+PD4
+Text HLabel 3350 6000 2    50   Input ~ 0
+PF5
+Text HLabel 3350 6100 2    50   Input ~ 0
+PD3
+Text HLabel 3350 6200 2    50   Input ~ 0
+PF10
+Text HLabel 3350 6300 2    50   Input ~ 0
+GND
+Text HLabel 3350 6500 2    50   Input ~ 0
+PE2
+Text HLabel 3350 6600 2    50   Input ~ 0
+PA7
+Text HLabel 3350 6700 2    50   Input ~ 0
+PE4
+Text HLabel 3350 6800 2    50   Input ~ 0
+PF2
+Text HLabel 3350 6900 2    50   Input ~ 0
+PE5
+Text HLabel 3350 7000 2    50   Input ~ 0
+PF1
+Text HLabel 3350 7100 2    50   Input ~ 0
+PE6
+Text HLabel 3350 7200 2    50   Input ~ 0
+PF0
+Text HLabel 3350 7300 2    50   Input ~ 0
+PE3
+Text HLabel 3350 7400 2    50   Input ~ 0
+GND
+Text HLabel 3350 7500 2    50   Input ~ 0
+PF8
+Text HLabel 3350 7600 2    50   Input ~ 0
+PD0
+Text HLabel 3350 7700 2    50   Input ~ 0
+PF7
+Text HLabel 3350 7800 2    50   Input ~ 0
+PD1
+Text HLabel 3350 7900 2    50   Input ~ 0
+PF9
+Text HLabel 3350 8000 2    50   Input ~ 0
+PG0
+Text HLabel 3350 8100 2    50   Input ~ 0
+PG1
+Text HLabel 10100 4550 2    50   Input ~ 0
+AVDD
+Text HLabel 10100 4650 2    50   Input ~ 0
+PF13
+Text HLabel 10100 4750 2    50   Input ~ 0
+AGND
+Text HLabel 10100 4850 2    50   Input ~ 0
+PE9
+Text HLabel 10100 4950 2    50   Input ~ 0
+GND
+Text HLabel 10100 5050 2    50   Input ~ 0
+PE11
+Text HLabel 10100 5150 2    50   Input ~ 0
+PB1
+Text HLabel 10100 5250 2    50   Input ~ 0
+PF14
+Text HLabel 10100 5350 2    50   Input ~ 0
+PC2
+Text HLabel 10100 5450 2    50   Input ~ 0
+PE13
+Text HLabel 10100 5550 2    50   Input ~ 0
+PF4
+Text HLabel 10100 5650 2    50   Input ~ 0
+PF15
+Text HLabel 10100 5750 2    50   Input ~ 0
+PB6
+Text HLabel 10100 5850 2    50   Input ~ 0
+PG14
+Text HLabel 10100 5950 2    50   Input ~ 0
+PB2
+Text HLabel 10100 6050 2    50   Input ~ 0
+PG9
+Text HLabel 10100 6150 2    50   Input ~ 0
+GND
+Text HLabel 10100 6250 2    50   Input ~ 0
+PE8
+Text HLabel 10100 6350 2    50   Input ~ 0
+PD13
+Text HLabel 10100 6450 2    50   Input ~ 0
+PE7
+Text HLabel 10100 6550 2    50   Input ~ 0
+PD12
+Text HLabel 10100 6650 2    50   Input ~ 0
+GND
+Text HLabel 10100 6750 2    50   Input ~ 0
+PD11
+Text HLabel 10100 6850 2    50   Input ~ 0
+PE10
+Text HLabel 10100 6950 2    50   Input ~ 0
+PE2
+Text HLabel 10100 7050 2    50   Input ~ 0
+PE12
+Text HLabel 10100 7150 2    50   Input ~ 0
+GND
+Text HLabel 10100 7250 2    50   Input ~ 0
+PE14
+Text HLabel 10100 7350 2    50   Input ~ 0
+PA0
+Text HLabel 10100 7450 2    50   Input ~ 0
+PE15
+Text HLabel 10100 7550 2    50   Input ~ 0
+PB0
+Text HLabel 10100 7650 2    50   Input ~ 0
+PB10
+Text HLabel 10100 7750 2    50   Input ~ 0
+PE0
+Text HLabel 10100 7850 2    50   Input ~ 0
+PB11
+Text HLabel 9700 1900 2    50   Input ~ 0
+PC6
+Text HLabel 9700 2000 2    50   Input ~ 0
+PB8
+Text HLabel 9700 2100 2    50   Input ~ 0
+PB15
+Text HLabel 9700 2200 2    50   Input ~ 0
+PB9
+Text HLabel 9700 2300 2    50   Input ~ 0
+PB13
+Text HLabel 9700 2400 2    50   Input ~ 0
+AVDD
+Text HLabel 9700 2500 2    50   Input ~ 0
+PB12
+Text HLabel 9700 2600 2    50   Input ~ 0
+GND
+Text HLabel 9700 2700 2    50   Input ~ 0
+PA15
+Text HLabel 9700 2800 2    50   Input ~ 0
+PA5
+Text HLabel 9700 2900 2    50   Input ~ 0
+PC7
+Text HLabel 9700 3000 2    50   Input ~ 0
+PA6
+Text HLabel 9700 3100 2    50   Input ~ 0
+PB5
+Text HLabel 9700 3200 2    50   Input ~ 0
+PA7
+Text HLabel 9700 3300 2    50   Input ~ 0
+PB3
+Text HLabel 9700 3400 2    50   Input ~ 0
+PD14
+Text HLabel 9700 3500 2    50   Input ~ 0
+PA4
+Text HLabel 9700 3600 2    50   Input ~ 0
+PD15
+Text HLabel 9700 3700 2    50   Input ~ 0
+PB4
+Text HLabel 9700 3800 2    50   Input ~ 0
+PF12
 $EndSCHEMATC
