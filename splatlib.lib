@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C_Pack04-c_pack04
+# C_Pack04
 #
-DEF C_Pack04-c_pack04 CN 0 0 Y N 1 F N
+DEF C_Pack04 CN 0 0 Y N 1 F N
 F0 "CN" -405 -130 50 V V C CNN
-F1 "C_Pack04-c_pack04" 95 -130 50 V V C CNN
+F1 "C_Pack04" 95 -130 50 V V C CNN
 F2 "" 170 -130 50 V I C CNN
 F3 "" -110 -115 50 H I C CNN
 $FPLIST
@@ -109,6 +109,26 @@ X RF2 5 550 0 100 L 50 50 1 1 P
 X GND 6 0 -400 100 U 50 50 1 1 W
 X ACGND 7 550 -200 100 L 50 50 1 1 P
 X RF1 8 550 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ublox_neo7_chinese_PCB_module
+#
+DEF ublox_neo7_chinese_PCB_module U 0 20 Y Y 1 F N
+F0 "U" -350 450 50 H V C CNN
+F1 "ublox_neo7_chinese_PCB_module" 450 450 50 H V C CNN
+F2 "Blox_Neo7module" 0 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ ublox*SAM?M8Q*
+$ENDFPLIST
+DRAW
+S -400 400 400 -400 0 1 10 f
+X VCC 1 -100 500 100 D 50 50 1 1 W
+X GND 2 0 -500 100 U 50 50 1 1 W
+X TXD 3 500 100 100 L 50 50 1 1 O
+X RXD 4 500 200 100 L 50 50 1 1 I
+X TIMEPULSE 5 -500 0 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
