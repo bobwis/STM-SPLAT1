@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8310
+D Log Amp, Fast, Voltage-Out, DC to 440 MHz,
+K Logoritmiic amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8310.pdf
+$ENDCMP
+#
 $CMP ublox_neo7_chinese_PCB_module
 D GPS ublox M8 variant
 K gps module with antenna

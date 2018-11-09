@@ -1,0 +1,21 @@
+Circuit: * C:\projects\lightning\kicad\stmsplat1\STM-SPLAT1\ltspice\lightningfilter.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Nov 09 14:08:40 2018
+Total elapsed time: 0.041 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2230
+traniter = 2225
+tranpoints = 1093
+accept = 1078
+rejected = 15
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 382 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
