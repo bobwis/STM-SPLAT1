@@ -10,12 +10,6 @@ $CMP HMC544A-RF_Switch
 D SPDT switch GaAs MMIC T/R
 $ENDCMP
 #
-$CMP MPL315A2
-D I2C Precision Digital Barometer
-K I2C barometer thermometer mems
-F http://www.farnell.com/datasheets/2291868.pdf?_ga=2.247853198.861137735.1541996176-952325772.1540441496
-$ENDCMP
-#
 $CMP ublox_neo7_chinese_PCB_module
 D GPS ublox M8 variant
 K gps module with antenna
