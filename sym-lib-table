@@ -1,5 +1,7 @@
 (sym_lib_table
   (lib (name splatsyms)(type Legacy)(uri ${KIPRJMOD}/splatlib.lib)(options "")(descr ""))
   (lib (name stmsplat1-rescue)(type Legacy)(uri ${KIPRJMOD}/stmsplat1-rescue.lib)(options "")(descr "")(disabled))
-  (lib (name ad8310)(type Legacy)(uri C:/projects/lightning/kicad/stmsplat1/STM-SPLAT1/splatlib/ad8310.lib)(options "")(descr ""))
+  (lib (name ad8310)(type Legacy)(uri C:/projects/lightning/kicad/stmsplat1/STM-SPLAT1/splatlib/ad8310.lib)(options "")(descr "")(disabled))
+  (lib (name splatlib)(type Legacy)(uri C:/projects/lightning/kicad/stmsplat1/STM-SPLAT1/splatlib.lib)(options "")(descr ""))
+  (lib (name mpl3115a2)(type Legacy)(uri C:/projects/lightning/kicad/stmsplat1/STM-SPLAT1/splatlib/mpl3115a2.lib)(options "")(descr ""))
 )

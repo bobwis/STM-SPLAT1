@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPL3115A2
+D I2C Precision Digital Barometer
+K spi barometer thermometer mems
+F http://www.farnell.com/datasheets/2291868.pdf?_ga=2.247853198.861137735.1541996176-952325772.1540441496
+$ENDCMP
+#
+#End Doc Library

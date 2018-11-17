@@ -6,6 +6,10 @@ K Logoritmiic amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8310.pdf
 $ENDCMP
 #
+$CMP HMC544A-RF_Switch
+D SPDT switch GaAs MMIC T/R
+$ENDCMP
+#
 $CMP ublox_neo7_chinese_PCB_module
 D GPS ublox M8 variant
 K gps module with antenna
