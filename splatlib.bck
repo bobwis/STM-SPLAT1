@@ -10,6 +10,12 @@ $CMP HMC544A-RF_Switch
 D SPDT switch GaAs MMIC T/R
 $ENDCMP
 #
+$CMP XBee3
+D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver
+K 2.4GHz rf transceiver ZigBee 802.15.4
+F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
 $CMP ublox_neo7_chinese_PCB_module
 D GPS ublox M8 variant
 K gps module with antenna
