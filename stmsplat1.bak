@@ -521,7 +521,7 @@ F 3 "~" H 6850 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6850 1400 1    50   Input ~ 0
-+3V3
+A3V3
 $Comp
 L Device:D_TVS D7
 U 1 1 5BE6C923
@@ -535,8 +535,6 @@ F 3 "http://www.farnell.com/datasheets/2076055.pdf?_ga=2.113895617.736118577.154
 $EndComp
 Wire Wire Line
 	6850 1400 6850 1500
-Wire Wire Line
-	10250 2700 10250 1750
 Wire Wire Line
 	10450 1300 10250 1300
 Wire Wire Line
@@ -695,7 +693,7 @@ F 3 "" H 6150 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9200 3300 10350 3300
+	9200 3300 9900 3300
 Wire Wire Line
 	10350 3300 10350 3850
 Connection ~ 9200 3300
@@ -722,9 +720,6 @@ Wire Wire Line
 	8100 3700 8100 4050
 Wire Wire Line
 	8100 4050 8400 4050
-Connection ~ 9750 2700
-Wire Wire Line
-	9750 2700 10250 2700
 Wire Wire Line
 	6600 2350 6600 3300
 Connection ~ 6600 3300
@@ -989,9 +984,6 @@ Wire Wire Line
 	12550 3350 10850 3350
 Wire Wire Line
 	10550 3350 10550 2700
-Wire Wire Line
-	10550 2700 10250 2700
-Connection ~ 10250 2700
 Connection ~ 12650 5100
 Wire Wire Line
 	12650 5100 13150 5100
@@ -1049,8 +1041,6 @@ Wire Wire Line
 Connection ~ 8950 5100
 Wire Wire Line
 	8950 5100 9000 5100
-Wire Wire Line
-	9950 1700 10000 1700
 Wire Wire Line
 	6600 950  8200 950 
 Wire Wire Line
@@ -2094,5 +2084,49 @@ F 3 "~" H 10500 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12500 5700 13150 5700
+	12000 5200 12000 5700
+Wire Wire Line
+	12000 5700 13150 5700
+Connection ~ 12000 5200
+$Comp
+L Device:R R5
+U 1 1 5BF77C69
+P 9900 2950
+F 0 "R5" H 9970 2996 50  0000 L CNN
+F 1 "100R" H 9970 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 9830 2950 50  0001 C CNN
+F 3 "~" H 9900 2950 50  0001 C CNN
+	1    9900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BF77C6F
+P 9900 2400
+F 0 "R4" H 9970 2446 50  0000 L CNN
+F 1 "100R" H 9970 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 9830 2400 50  0001 C CNN
+F 3 "~" H 9900 2400 50  0001 C CNN
+	1    9900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3100 9900 3300
+Wire Wire Line
+	9900 2550 9900 2700
+Text HLabel 9900 2150 1    50   Input ~ 0
+A3V3
+Wire Wire Line
+	9900 2150 9900 2250
+Connection ~ 9900 3300
+Wire Wire Line
+	9900 3300 10350 3300
+Wire Wire Line
+	9750 2700 9900 2700
+Connection ~ 9750 2700
+Connection ~ 9900 2700
+Wire Wire Line
+	9900 2700 9900 2800
+Wire Wire Line
+	9900 2700 10550 2700
 $EndSCHEMATC

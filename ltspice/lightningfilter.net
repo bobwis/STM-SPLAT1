@@ -1,0 +1,28 @@
+* C:\projects\lightning\kicad\stmsplat1\STM-SPLAT1\ltspice\lightningfilter.asc
+V1 N007 0 SINE(-3 +3 30nS 1nS 1nS 100nS 200nS) AC 1 0 Rser=0
+L2 N004 N008 1.5µ
+C1 N008 0 560p
+C2 N004 0 240p
+R6 N001 N004 100
+V2 N001 0 3.3 Rser=0
+L1 N006 N008 620n
+R8 N006 N005 50
+R9 N006 0 100
+R16 N001 N006 100
+D3 N006 N001 BAT54
+D2 0 N006 BAT54
+XU2 N003 N002 N002 N001 0 NC_01 LTC6261
+R1 N001 N003 4K7
+R3 N003 0 4K7
+XU1 OUT N002 N004 0 N001 0 0 N001 LTC6910-2
+C3 N005 N007 47n
+R4 N004 0 100
+.model D D
+.lib C:\Users\bob\Documents\LTspiceXVII\lib\cmp\standard.dio
+;tran 0 2e-6 0 1e-9
+.ac dec 100 1 10e6
+;tran 0 5e-6 0 1e-9
+.lib LTC1.LIB
+.lib LTC6.lib
+.backanno
+.end
