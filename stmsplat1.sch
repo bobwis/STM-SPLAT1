@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L MCU_Module:NUCLEO144-F746ZG U1
 U 1 1 5BCFF0C9
-P 3350 4550
-F 0 "U1" H 3350 8436 50  0000 C CNN
-F 1 "NUCLEO144-F746ZG" H 3350 8527 50  0000 C CNN
-F 2 "spatboard:ST_Nucleo_144_Large_Daughter" H 4200 900 50  0001 L CNN
-F 3 "" H 2450 4850 50  0001 C CNN
-	1    3350 4550
+P 3750 5400
+F 0 "U1" H 3750 9286 50  0000 C CNN
+F 1 "NUCLEO144-F746ZG" H 3750 9377 50  0000 C CNN
+F 2 "spatboard:ST_Nucleo_144_Large_Daughter" H 4600 1750 50  0001 L CNN
+F 3 "" H 2850 5700 50  0001 C CNN
+	1    3750 5400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -39,12 +39,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x20_Male CN3
 U 1 1 5BD04C2E
-P 5100 2000
-F 0 "CN3" H 5206 3078 50  0000 C CNN
-F 1 "Conn_01x20_Male" H 5206 2987 50  0000 C CNN
-F 2 "spatboard:IDC-Pins_2x10_P2.54mm_Vertical" H 5100 2000 50  0001 C CNN
-F 3 "" H 5100 2000 50  0001 C CNN
-	1    5100 2000
+P 5500 2850
+F 0 "CN3" H 5606 3928 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 5606 3837 50  0000 C CNN
+F 2 "spatboard:IDC-Pins_2x10_P2.54mm_Vertical" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -272,7 +272,7 @@ Text HLabel 5300 2100 2    50   Input ~ 0
 PC7
 Text HLabel 5300 2200 2    50   Input ~ 0
 PA6
-Text HLabel 5300 2300 2    50   Input ~ 0
+Text HLabel 5700 3150 2    50   Input ~ 0
 PB5
 Text HLabel 5300 2400 2    50   Input ~ 0
 PA7
@@ -501,12 +501,12 @@ AGND
 $Comp
 L Device:D_TVS D7
 U 1 1 5BE6C923
-P 6950 2200
-F 0 "D7" V 6904 2279 50  0000 L CNN
-F 1 "SMAJ8.0CA Bourns 9V" V 6995 2279 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 6950 2200 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2076055.pdf?_ga=2.113895617.736118577.1541708831-952325772.1540441496" H 6950 2200 50  0001 C CNN
-	1    6950 2200
+P 7350 3050
+F 0 "D7" V 7304 3129 50  0000 L CNN
+F 1 "SMAJ8.0CA Bourns 9V" V 7395 3129 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7350 3050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2076055.pdf?_ga=2.113895617.736118577.1541708831-952325772.1540441496" H 7350 3050 50  0001 C CNN
+	1    7350 3050
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -650,7 +650,7 @@ F 3 "~" H 6650 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 1250 5950 3300
+	6350 2100 6350 4150
 Wire Wire Line
 	6150 1050 6150 950 
 $Comp
@@ -691,8 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4050 8400 4050
 Wire Wire Line
-	6950 2350 6950 3300
-Connection ~ 6950 3300
+	7350 3200 7350 4150
 $Comp
 L Device:C_Small C8
 U 1 1 5BEE1C9A
@@ -784,8 +783,6 @@ Wire Wire Line
 Wire Wire Line
 	8550 3300 9200 3300
 Connection ~ 6300 3300
-Wire Wire Line
-	6300 3300 6400 3300
 Connection ~ 10450 2100
 Wire Wire Line
 	11800 2200 11550 2200
@@ -797,10 +794,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 1950 7650 1950
 Wire Wire Line
-	7650 1950 7650 3300
-Connection ~ 7650 3300
-Wire Wire Line
-	7650 3300 7900 3300
+	8050 2800 8050 4150
 Wire Wire Line
 	8400 4450 7900 4450
 Wire Wire Line
@@ -1065,7 +1059,7 @@ F 3 "~" H 7400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 1750 7400 3750
+	7800 2600 7800 4600
 Wire Wire Line
 	7400 3950 7400 4250
 $Comp
@@ -1488,7 +1482,7 @@ $EndComp
 Wire Wire Line
 	8350 8100 8350 8000
 $Comp
-L splatlib:XBee3 U11
+L stmsplat1-rescue:XBee3-splatlib U11
 U 1 1 5BFA172B
 P 7350 7600
 F 0 "U11" H 7350 6626 50  0000 C CNN
@@ -1732,8 +1726,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 6300 5650 6300
 Wire Wire Line
-	5650 2050 5650 6300
-Connection ~ 5650 6300
+	6050 2900 6050 7150
 Wire Wire Line
 	5650 6300 5650 6600
 $Comp
@@ -1805,7 +1798,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 1250 5800 1250
 Wire Wire Line
-	5800 1250 5800 3550
+	6200 2100 6200 4400
 Wire Wire Line
 	5800 3550 6150 3550
 Wire Wire Line
@@ -2056,9 +2049,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 2700 10550 2700
 Wire Wire Line
-	7200 1550 7200 2700
-Wire Wire Line
-	6950 3300 7650 3300
+	7600 2400 7600 3550
 $Comp
 L Device:R_Small R1
 U 1 1 5C0A226D
@@ -2082,8 +2073,7 @@ Connection ~ 6400 950
 Wire Wire Line
 	6400 950  6550 950 
 Wire Wire Line
-	6400 1700 6400 3300
-Connection ~ 6400 3300
+	6800 2550 6800 4150
 Wire Wire Line
-	6400 3300 6950 3300
+	6300 3300 7900 3300
 $EndSCHEMATC
