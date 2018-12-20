@@ -550,17 +550,6 @@ Wire Wire Line
 	11850 3750 10150 3750
 Wire Wire Line
 	10150 3750 10150 1750
-$Comp
-L Device:Ferrite_Bead FB2
-U 1 1 5BE721A5
-P 13400 9350
-F 0 "FB2" H 13537 9396 50  0000 L CNN
-F 1 "Ferrite_Bead" H 13537 9305 50  0000 L CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 13330 9350 50  0001 C CNN
-F 3 "~" H 13400 9350 50  0001 C CNN
-	1    13400 9350
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	14800 8900 14800 8950
 Text HLabel 14800 9050 3    50   Input ~ 0
@@ -2086,4 +2075,57 @@ Wire Wire Line
 Connection ~ 6400 3300
 Wire Wire Line
 	6400 3300 6950 3300
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5BFC8F36
+P 7350 9400
+F 0 "J3" H 7456 9769 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7456 9678 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7350 9400 50  0001 C CNN
+F 3 "~" H 7350 9400 50  0001 C CNN
+F 4 "DEBUG COM2" H 7456 9587 50  0000 C CNN "DESC"
+	1    7350 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 9300 7900 9300
+Wire Wire Line
+	7550 9400 7900 9400
+Wire Wire Line
+	7550 9500 7900 9500
+Wire Wire Line
+	7550 9600 7900 9600
+Text HLabel 7900 9300 2    50   Input ~ 0
+5V0
+Text HLabel 7900 9400 2    50   Input ~ 0
+PD6
+Text HLabel 7900 9500 2    50   Input ~ 0
+PD5
+Text HLabel 7900 9600 2    50   Input ~ 0
+GND
+Text Label 7050 9550 0    50   ~ 0
+PC_TX
+Text Label 7050 9450 0    50   ~ 0
+PC_RX
+Wire Wire Line
+	4250 9900 4350 9900
+Wire Wire Line
+	4250 10000 4350 10000
+Text HLabel 4350 10000 2    50   Input ~ 0
+PG9
+Text HLabel 4350 9900 2    50   Input ~ 0
+PC6
+Text Notes 4500 9800 2    50   ~ 0
+UART6
+$Comp
+L Device:Ferrite_Bead FB2
+U 1 1 5BE721A5
+P 13400 9350
+F 0 "FB2" H 13537 9396 50  0000 L CNN
+F 1 "Ferrite_Bead" H 13537 9305 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 13330 9350 50  0001 C CNN
+F 3 "~" H 13400 9350 50  0001 C CNN
+	1    13400 9350
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
