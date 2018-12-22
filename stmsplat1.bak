@@ -522,7 +522,7 @@ U 1 1 5BE53225
 P 11100 4650
 F 0 "U5" H 11541 4691 50  0000 L CNN
 F 1 "AD8310" H 11541 4600 50  0000 L CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 11000 4600 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 11000 4600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8310.pdf" H 11000 4600 50  0001 C CNN
 	1    11100 4650
 	1    0    0    -1  
@@ -1477,7 +1477,7 @@ $EndComp
 Wire Wire Line
 	8350 8100 8350 8000
 $Comp
-L splatlib:XBee3 U11
+L stmsplat1-rescue:XBee3-splatlib U11
 U 1 1 5BFA172B
 P 7350 7600
 F 0 "U11" H 7350 6626 50  0000 C CNN
@@ -1694,32 +1694,17 @@ Wire Wire Line
 Connection ~ 5650 6600
 Text Label 5500 6950 2    50   ~ 0
 TPULSE
-$Comp
-L Device:R_Pack04 RN4
-U 1 1 5C27E276
-P 8400 6000
-F 0 "RN4" H 8588 6046 50  0000 L CNN
-F 1 "4K7" H 8588 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8675 6000 50  0001 C CNN
-F 3 "" H 8400 6000 50  0001 C CNN
-	1    8400 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8200 5800 8200 5750
-Text HLabel 8200 5700 1    50   Input ~ 0
+	8300 5800 8300 5750
+Text HLabel 8300 5700 1    50   Input ~ 0
 P3V3
 Wire Wire Line
-	8200 5750 8300 5750
+	8300 5750 8400 5750
 Wire Wire Line
-	8300 5750 8300 5800
-Connection ~ 8200 5750
+	8400 5750 8400 5800
+Connection ~ 8300 5750
 Wire Wire Line
-	8200 5750 8200 5700
-Wire Wire Line
-	8200 6200 8200 6300
-Wire Wire Line
-	8200 6300 5650 6300
+	8300 5750 8300 5700
 Wire Wire Line
 	5650 2050 5650 6300
 Connection ~ 5650 6300
@@ -1888,7 +1873,7 @@ Wire Wire Line
 	11000 8950 11450 8950
 Connection ~ 12250 8950
 Wire Wire Line
-	10700 8250 10300 8250
+	10700 8250 10500 8250
 $Comp
 L Device:C C20
 U 1 1 5CCB7C4C
@@ -1946,33 +1931,25 @@ Wire Wire Line
 Wire Wire Line
 	8800 6450 8300 6450
 Wire Wire Line
-	8300 6450 8300 6200
-Wire Wire Line
 	9450 7600 8850 7600
 Wire Wire Line
 	8850 7600 8850 6400
 Wire Wire Line
-	8850 6400 8400 6400
-Wire Wire Line
-	8400 6400 8400 6200
+	8850 6400 8500 6400
 Wire Wire Line
 	9450 7200 8900 7200
 Wire Wire Line
 	8900 7200 8900 6350
 Wire Wire Line
-	8900 6350 8500 6350
+	8400 5750 8500 5750
 Wire Wire Line
-	8500 6350 8500 6200
-Wire Wire Line
-	8300 5750 8400 5750
-Wire Wire Line
-	8400 5750 8400 5800
-Connection ~ 8300 5750
-Wire Wire Line
-	8500 5800 8500 5750
-Wire Wire Line
-	8500 5750 8400 5750
+	8500 5750 8500 5800
 Connection ~ 8400 5750
+Wire Wire Line
+	8600 5800 8600 5750
+Wire Wire Line
+	8600 5750 8500 5750
+Connection ~ 8500 5750
 Wire Wire Line
 	6550 8000 6400 8000
 Wire Wire Line
@@ -2128,4 +2105,48 @@ F 3 "~" H 13400 9350 50  0001 C CNN
 	1    13400 9350
 	0    1    -1   0   
 $EndComp
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 5C27E276
+P 8400 6000
+F 0 "RN4" H 8588 6046 50  0000 L CNN
+F 1 "4K7" H 8588 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8675 6000 50  0001 C CNN
+F 3 "" H 8400 6000 50  0001 C CNN
+	1    8400 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6200 8300 6450
+Wire Wire Line
+	8600 6300 8600 6200
+Wire Wire Line
+	5650 6300 8600 6300
+Wire Wire Line
+	8400 6350 8400 6200
+Wire Wire Line
+	8400 6350 8900 6350
+Wire Wire Line
+	8500 6400 8500 6200
+$Comp
+L Device:CP C21
+U 1 1 5C1EE7CD
+P 10500 8700
+F 0 "C21" H 10618 8746 50  0000 L CNN
+F 1 "100uF" H 10618 8655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10538 8550 50  0001 C CNN
+F 3 "~" H 10500 8700 50  0001 C CNN
+	1    10500 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8850 10500 8950
+Wire Wire Line
+	11000 8950 10500 8950
+Connection ~ 11000 8950
+Wire Wire Line
+	10500 8550 10500 8250
+Connection ~ 10500 8250
+Wire Wire Line
+	10500 8250 10300 8250
 $EndSCHEMATC

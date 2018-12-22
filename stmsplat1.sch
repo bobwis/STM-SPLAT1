@@ -1178,7 +1178,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 10450 7900 10450
 Text HLabel 7900 10150 2    50   Input ~ 0
-5V0
++5V
 Text HLabel 7900 10250 2    50   Input ~ 0
 PC12
 Text HLabel 7900 10350 2    50   Input ~ 0
@@ -1477,7 +1477,7 @@ $EndComp
 Wire Wire Line
 	8350 8100 8350 8000
 $Comp
-L splatlib:XBee3 U11
+L stmsplat1-rescue:XBee3-splatlib U11
 U 1 1 5BFA172B
 P 7350 7600
 F 0 "U11" H 7350 6626 50  0000 C CNN
@@ -1873,7 +1873,7 @@ Wire Wire Line
 	11000 8950 11450 8950
 Connection ~ 12250 8950
 Wire Wire Line
-	10700 8250 10300 8250
+	10700 8250 10500 8250
 $Comp
 L Device:C C20
 U 1 1 5CCB7C4C
@@ -2073,7 +2073,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 9600 7900 9600
 Text HLabel 7900 9300 2    50   Input ~ 0
-5V0
++5V
 Text HLabel 7900 9400 2    50   Input ~ 0
 PD6
 Text HLabel 7900 9500 2    50   Input ~ 0
@@ -2128,4 +2128,25 @@ Wire Wire Line
 	8400 6350 8900 6350
 Wire Wire Line
 	8500 6400 8500 6200
+$Comp
+L Device:CP C21
+U 1 1 5C1EE7CD
+P 10500 8700
+F 0 "C21" H 10618 8746 50  0000 L CNN
+F 1 "100uF" H 10618 8655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10538 8550 50  0001 C CNN
+F 3 "~" H 10500 8700 50  0001 C CNN
+	1    10500 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8850 10500 8950
+Wire Wire Line
+	11000 8950 10500 8950
+Connection ~ 11000 8950
+Wire Wire Line
+	10500 8550 10500 8250
+Connection ~ 10500 8250
+Wire Wire Line
+	10500 8250 10300 8250
 $EndSCHEMATC
