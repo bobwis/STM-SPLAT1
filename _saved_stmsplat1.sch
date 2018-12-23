@@ -1476,17 +1476,6 @@ F 3 "" H 8350 8100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 8100 8350 8000
-$Comp
-L stmsplat1-rescue:XBee3-splatlib U11
-U 1 1 5BFA172B
-P 7350 7600
-F 0 "U11" H 7350 6626 50  0000 C CNN
-F 1 "XBee3" H 7350 6535 50  0000 C CNN
-F 2 "spatboard:XBEE-22MM-TH" H 7500 7700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/cc2520" H 7350 7350 50  0001 C CNN
-	1    7350 7600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 6600 7550 6400
 Wire Wire Line
@@ -2164,6 +2153,21 @@ Wire Wire Line
 	5200 10150 5100 10150
 Wire Wire Line
 	5100 10150 5100 9550
+$Comp
+L splatlib:XBee3 U11
+U 1 1 5C4E2737
+P 7350 7600
+F 0 "U11" H 7350 6626 50  0000 C CNN
+F 1 "XBee3" H 7350 6535 50  0000 C CNN
+F 2 "spatboard:XBEE-22MM-TH" H 7500 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/cc2520" H 7350 7350 50  0001 C CNN
+	1    7350 7600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6550 7550 6250 7550
+	6550 7800 6350 7800
+Wire Wire Line
+	6350 7800 6350 7550
+Wire Wire Line
+	6350 7550 6250 7550
 $EndSCHEMATC

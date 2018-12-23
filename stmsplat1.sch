@@ -1577,16 +1577,16 @@ XB_PIO4
 $Comp
 L Device:LED D8
 U 1 1 5C2D017B
-P 6400 7550
-F 0 "D8" H 6392 7295 50  0000 C CNN
-F 1 "LED" H 6392 7386 50  0000 C CNN
-F 2 "LED_SMD:LED_PLCC-2" H 6400 7550 50  0001 C CNN
-F 3 "~" H 6400 7550 50  0001 C CNN
-	1    6400 7550
+P 6100 7550
+F 0 "D8" H 6092 7295 50  0000 C CNN
+F 1 "LED" H 6092 7386 50  0000 C CNN
+F 2 "LED_SMD:LED_PLCC-2" H 6100 7550 50  0001 C CNN
+F 3 "~" H 6100 7550 50  0001 C CNN
+	1    6100 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 7550 5700 7550
+	5950 7550 5700 7550
 Text HLabel 13250 1400 0    50   Input ~ 0
 XB_PIO4
 Wire Wire Line
@@ -2073,7 +2073,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 9600 7900 9600
 Text HLabel 7900 9300 2    50   Input ~ 0
-+5V
++3V3
 Text HLabel 7900 9400 2    50   Input ~ 0
 PD6
 Text HLabel 7900 9500 2    50   Input ~ 0
@@ -2149,4 +2149,19 @@ Wire Wire Line
 Connection ~ 10500 8250
 Wire Wire Line
 	10500 8250 10300 8250
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5C244655
+P 5100 9550
+F 0 "TP14" H 5158 9670 50  0000 L CNN
+F 1 "TestPoint" H 5158 9579 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5300 9550 50  0001 C CNN
+F 3 "~" H 5300 9550 50  0001 C CNN
+	1    5100 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 10150 5100 10150
+Wire Wire Line
+	5100 10150 5100 9550
 $EndSCHEMATC
